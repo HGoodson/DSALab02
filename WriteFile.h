@@ -6,6 +6,7 @@
 #include <fstream>
 using namespace std;
 
+
 class WriteFile
 {
 	private:
@@ -19,7 +20,6 @@ void writeLine(String* line);
 void close();
 	~WriteFile();
 };
-
 
 
 #endif
